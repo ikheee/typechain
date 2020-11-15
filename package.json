@@ -1,0 +1,14 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "--start": "node index.js",
+    "--prestart": "tsc",
+    "start": "tsc-watch --onSuccess \"dist/node index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
